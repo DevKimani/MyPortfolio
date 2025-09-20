@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Kelvin Mirii</title>
+    <meta name="description" content="Explore Kelvin Mirii's portfolio of design and development projects including websites, mobile apps, and brand identities.">
+    
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Kelvin Mirii</a>
+                
+                <nav class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+                
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 60vh; padding-top: 100px;">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Portfolio Gallery</h1>
+                    <p>Explore my collection of design and development projects. Each piece represents a unique challenge solved with creativity and technical expertise.</p>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=500&h=400&fit=crop" alt="Portfolio Gallery">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="section" style="padding: 2rem 0;">
+        <div class="container">
+            <div class="text-center">
+                <div class="btn-group" style="justify-content: center; flex-wrap: wrap;">
+                    <button class="btn btn-primary filter-btn active" data-filter="all">All Projects</button>
+                    <button class="btn btn-secondary filter-btn" data-filter="web">Web Design</button>
+                    <button class="btn btn-secondary filter-btn" data-filter="brand">Brand Identity</button>
+                    <button class="btn btn-secondary filter-btn" data-filter="mobile">Mobile Apps</button>
+                    <button class="btn btn-secondary filter-btn" data-filter="ecommerce">E-commerce</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section">
+        <div class="container">
+            <div class="gallery">
+                <!-- Web Design Projects -->
+                <div class="gallery-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop" alt="Corporate Website Design">
+                    <div class="gallery-overlay">
+                        <h3>Corporate Website</h3>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=300&fit=crop" alt="Portfolio Website">
+                    <div class="gallery-overlay">
+                        <h3>Creative Portfolio</h3>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop" alt="Agency Website">
+                    <div class="gallery-overlay">
+                        <h3>Digital Agency</h3>
+                    </div>
+                </div>
+                
+                <!-- Brand Identity Projects -->
+                <div class="gallery-item" data-category="brand">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop" alt="Restaurant Brand">
+                    <div class="gallery-overlay">
+                        <h3>Restaurant Brand</h3>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="brand">
+                    <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=400&h=300&fit=crop" alt="Tech Startup Logo">
+                    <div class="gallery-overlay">
+                        <h3>Tech Startup</h3>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="brand">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop" alt="Fashion Brand">
+                    <div class="gallery-overlay">
+                        <h3>Fashion Brand</h3>
+                    </div>
+                </div>
+                
+                <!-- Mobile App Projects -->
+                <div class="gallery-item" data-category="mobile">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=300&fit=crop" alt="Fitness App">
+                    <div class="gallery-overlay">
+                        <h3>Fitness Tracker</h3>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="mobile">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=300&fit=crop" alt="Food Delivery App">
+                    <div class="gallery-overlay">
+                        <h3>Food Delivery</h3>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="mobile">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop" alt="Banking App">
+                    <div class="gallery-overlay">
+                        <h3>Banking App</h3>
+                    </div>
+                </div>
+                
+                <!-- E-commerce Projects -->
+                <div class="gallery-item" data-category="ecommerce">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop" alt="Online Store">
+                    <div class="gallery-overlay">
+                        <h3>Online Store</h3>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="ecommerce">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop" alt="Electronics Store">
+                    <div class="gallery-overlay">
+                        <h3>Electronics Store</h3>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="ecommerce">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop" alt="Fashion Store">
+                    <div class="gallery-overlay">
+                        <h3>Fashion Store</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Details Section -->
+    <section class="section" style="background-color: var(--bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">In-depth look at some of my most impactful work</p>
+            </div>
+            
+            <div class="grid grid-2">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=300&fit=crop" alt="TechCorp Website" style="margin-bottom: 1.5rem; border-radius: 0.5rem;">
+                    <h3>TechCorp Enterprise Website</h3>
+                    <p style="color: var(--primary-color); font-weight: 600;">Web Design & Development</p>
+                    <p>A comprehensive corporate website redesign for a leading technology company. The project involved creating a modern, responsive design that effectively communicates the company's expertise and values.</p>
+                    <ul style="margin-top: 1rem; padding-left: 1.5rem;">
+                        <li>Responsive design for all devices</li>
+                        <li>Custom CMS integration</li>
+                        <li>Advanced animations and interactions</li>
+                        <li>SEO optimization</li>
+                        <li>Performance optimization</li>
+                    </ul>
+                    <div style="margin-top: 2rem;">
+                        <a href="#" class="btn btn-primary">View Live Site</a>
+                        <a href="#" class="btn btn-secondary" style="margin-left: 1rem;">Case Study</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=300&fit=crop" alt="Fitness App Design" style="margin-bottom: 1.5rem; border-radius: 0.5rem;">
+                    <h3>FitLife Mobile App</h3>
+                    <p style="color: var(--primary-color); font-weight: 600;">Mobile App Design</p>
+                    <p>A comprehensive fitness tracking app designed to help users achieve their health goals. The design focuses on motivation, ease of use, and comprehensive tracking capabilities.</p>
+                    <ul style="margin-top: 1rem; padding-left: 1.5rem;">
+                        <li>Intuitive user interface</li>
+                        <li>Comprehensive workout tracking</li>
+                        <li>Social features and challenges</li>
+                        <li>Progress visualization</li>
+                        <li>Cross-platform consistency</li>
+                    </ul>
+                    <div style="margin-top: 2rem;">
+                        <a href="#" class="btn btn-primary">View Prototype</a>
+                        <a href="#" class="btn btn-secondary" style="margin-left: 1rem;">Case Study</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=300&fit=crop" alt="Restaurant Brand" style="margin-bottom: 1.5rem; border-radius: 0.5rem;">
+                    <h3>Bella Vista Restaurant Brand</h3>
+                    <p style="color: var(--primary-color); font-weight: 600;">Brand Identity</p>
+                    <p>Complete brand identity design for an upscale Italian restaurant. The project included logo design, color palette, typography, and comprehensive brand guidelines.</p>
+                    <ul style="margin-top: 1rem; padding-left: 1.5rem;">
+                        <li>Logo and visual identity</li>
+                        <li>Menu design and layout</li>
+                        <li>Marketing materials</li>
+                        <li>Social media assets</li>
+                        <li>Brand guidelines document</li>
+                    </ul>
+                    <div style="margin-top: 2rem;">
+                        <a href="#" class="btn btn-primary">View Brand Guide</a>
+                        <a href="#" class="btn btn-secondary" style="margin-left: 1rem;">Case Study</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=300&fit=crop" alt="E-commerce Store" style="margin-bottom: 1.5rem; border-radius: 0.5rem;">
+                    <h3>StyleHub E-commerce Platform</h3>
+                    <p style="color: var(--primary-color); font-weight: 600;">E-commerce Development</p>
+                    <p>A modern e-commerce platform for a fashion retailer featuring advanced filtering, personalized recommendations, and seamless checkout experience.</p>
+                    <ul style="margin-top: 1rem; padding-left: 1.5rem;">
+                        <li>Advanced product filtering</li>
+                        <li>Personalized recommendations</li>
+                        <li>Secure payment integration</li>
+                        <li>Inventory management</li>
+                        <li>Mobile-optimized experience</li>
+                    </ul>
+                    <div style="margin-top: 2rem;">
+                        <a href="#" class="btn btn-primary">View Live Site</a>
+                        <a href="#" class="btn btn-secondary" style="margin-left: 1rem;">Case Study</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Client Testimonials</h2>
+                <p class="section-subtitle">What clients say about working with me</p>
+            </div>
+            
+            <div class="grid grid-3">
+                <div class="card">
+                    <p style="font-style: italic; margin-bottom: 1.5rem;">"Kelvin delivered an exceptional website that perfectly captured our brand essence. The attention to detail and user experience exceeded our expectations."</p>
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=60&h=60&fit=crop&crop=face" alt="Sarah Wilson" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;">
+                        <div>
+                            <h4 style="margin: 0; font-size: 1rem;">Sarah Wilson</h4>
+                            <p style="margin: 0; font-size: 0.875rem; color: var(--text-light);">CEO, TechCorp</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <p style="font-style: italic; margin-bottom: 1.5rem;">"The mobile app design Kelvin created is intuitive and beautiful. Our user engagement has increased by 60% since launch."</p>
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face" alt="Michael Chen" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;">
+                        <div>
+                            <h4 style="margin: 0; font-size: 1rem;">Michael Chen</h4>
+                            <p style="margin: 0; font-size: 0.875rem; color: var(--text-light);">Founder, FitLife</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <p style="font-style: italic; margin-bottom: 1.5rem;">"Professional, creative, and reliable. Kelvin transformed our brand identity and helped us stand out in a competitive market."</p>
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=60&h=60&fit=crop&crop=face" alt="Emily Rodriguez" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;">
+                        <div>
+                            <h4 style="margin: 0; font-size: 1rem;">Emily Rodriguez</h4>
+                            <p style="margin: 0; font-size: 0.875rem; color: var(--text-light);">Owner, Bella Vista</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section" style="background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); color: white;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" style="color: white;">Like What You See?</h2>
+                <p class="section-subtitle" style="color: rgba(255, 255, 255, 0.9);">Let's discuss how I can help bring your vision to life with the same level of creativity and attention to detail.</p>
+            </div>
+            
+            <div class="text-center">
+                <a href="contact.html" class="btn" style="background: white; color: var(--primary-color);">Start Your Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kelvin Mirii</h3>
+                    <p>Creative Designer & Developer passionate about crafting exceptional digital experiences that make a difference.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <a href="services.html">Web Design</a>
+                    <a href="services.html">Brand Identity</a>
+                    <a href="services.html">Mobile Apps</a>
+                    <a href="services.html">Consulting</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <a href="mailto:miriikelvinkimani@gmail.com">miriikelvinkimani@gmail.com</a>
+                    <a href="tel:+1234567890">+1 (234) 567-890</a>
+                    <div style="margin-top: 1rem;">
+                        <a href="#" style="margin-right: 1rem;">LinkedIn</a>
+                        <a href="#" style="margin-right: 1rem;">Twitter</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kelvin Mirii. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    
+    <!-- Gallery Filter Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const filter = this.getAttribute('data-filter');
+                    
+                    // Update active button
+                    filterButtons.forEach(btn => {
+                        btn.classList.remove('active');
+                        btn.classList.add('btn-secondary');
+                        btn.classList.remove('btn-primary');
+                    });
+                    this.classList.add('active');
+                    this.classList.add('btn-primary');
+                    this.classList.remove('btn-secondary');
+                    
+                    // Filter gallery items
+                    galleryItems.forEach(item => {
+                        if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                            item.style.display = 'block';
+                            item.style.animation = 'fadeInUp 0.5s ease forwards';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

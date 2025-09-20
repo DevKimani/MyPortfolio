@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Kelvin Mirii</title>
+    <meta name="description" content="Get in touch with Kelvin Mirii for your next design or development project. Let's discuss how we can work together.">
+    
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Kelvin Mirii</a>
+                
+                <nav class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+                
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 60vh; padding-top: 100px;">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Let's Work Together</h1>
+                    <p>Ready to bring your ideas to life? I'd love to hear about your project and discuss how we can create something amazing together.</p>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500&h=400&fit=crop" alt="Contact Kelvin Mirii">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-2">
+                <!-- Contact Form -->
+                <div class="card">
+                    <h2>Send Me a Message</h2>
+                    <p>Fill out the form below and I'll get back to you within 24 hours.</p>
+                    
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name *</label>
+                            <input type="text" id="name" name="name" class="form-input" required minlength="2">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email *</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="tel" id="phone" name="phone" class="form-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject *</label>
+                            <input type="text" id="subject" name="subject" class="form-input" required minlength="5">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget" class="form-label">Project Budget</label>
+                            <select id="budget" name="budget" class="form-input">
+                                <option value="">Select Budget Range</option>
+                                <option value="under-5k">Under $5,000</option>
+                                <option value="5k-10k">$5,000 - $10,000</option>
+                                <option value="10k-25k">$10,000 - $25,000</option>
+                                <option value="25k-plus">$25,000+</option>
+                                <option value="discuss">Let's Discuss</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="timeline" class="form-label">Project Timeline</label>
+                            <select id="timeline" name="timeline" class="form-input">
+                                <option value="">Select Timeline</option>
+                                <option value="asap">ASAP</option>
+                                <option value="1-month">Within 1 Month</option>
+                                <option value="2-3-months">2-3 Months</option>
+                                <option value="3-6-months">3-6 Months</option>
+                                <option value="flexible">Flexible</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" class="form-textarea" required minlength="20" placeholder="Tell me about your project, goals, and any specific requirements..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                
+                <!-- Contact Information -->
+                <div>
+                    <div class="card">
+                        <h3>Get In Touch</h3>
+                        <p>I'm always excited to work on new projects and collaborate with creative minds. Here's how you can reach me:</p>
+                        
+                        <div style="margin: 2rem 0;">
+                            <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                                <div style="width: 50px; height: 50px; background: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem;">
+                                    <span style="color: white; font-size: 1.2rem;">📧</span>
+                                </div>
+                                <div>
+                                    <h4 style="margin: 0; font-size: 1.1rem;">Email</h4>
+                                    <a href="mailto:miriikelvinkimani@gmailcom" style="color: var(--primary-color);">miriikelvinkimani@gmail.com</a>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                                <div style="width: 50px; height: 50px; background: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem;">
+                                    <span style="color: white; font-size: 1.2rem;">📱</span>
+                                </div>
+                                <div>
+                                    <h4 style="margin: 0; font-size: 1.1rem;">Phone</h4>
+                                    <a href="tel:+1234567890" style="color: var(--primary-color);">+1 (234) 567-890</a>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                                <div style="width: 50px; height: 50px; background: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem;">
+                                    <span style="color: white; font-size: 1.2rem;">📍</span>
+                                </div>
+                                <div>
+                                    <h4 style="margin: 0; font-size: 1.1rem;">Location</h4>
+                                    <p style="margin: 0; color: var(--text-light);">San Francisco, CA<br>Available for remote work worldwide</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Response Time</h3>
+                        <p>I typically respond to all inquiries within 24 hours during business days. For urgent projects, feel free to call or text directly.</p>
+                        
+                        <div style="margin-top: 1.5rem;">
+                            <h4>Business Hours</h4>
+                            <p style="margin: 0.5rem 0; color: var(--text-light);">Monday - Friday: 9:00 AM - 6:00 PM PST</p>
+                            <p style="margin: 0.5rem 0; color: var(--text-light);">Weekend: Available for urgent projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" style="background-color: var(--bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Quick answers to common questions about working with me</p>
+            </div>
+            
+            <div class="grid grid-2">
+                <div class="card">
+                    <h3>How do you approach new projects?</h3>
+                    <p>I start with a discovery call to understand your goals, target audience, and requirements. Then I create a detailed project plan with timelines and milestones. Communication is key throughout the process.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>What information should I include in my inquiry?</h3>
+                    <p>Please share your project goals, target audience, timeline, budget range, and any specific requirements or inspiration. The more details you provide, the better I can tailor my proposal.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Do you work with clients outside the US?</h3>
+                    <p>Absolutely! I work with clients worldwide. All communication and project management is done remotely using video calls, email, and project management tools.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>What's your typical project timeline?</h3>
+                    <p>Timelines vary based on project scope. A simple website takes 2-4 weeks, while comprehensive projects can take 6-8 weeks. I'll provide a detailed timeline during our initial consultation.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Do you offer ongoing support after project completion?</h3>
+                    <p>Yes! All projects include a support period, and I offer ongoing maintenance packages. Many clients choose to work with me long-term for updates and improvements.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Can you help with existing projects?</h3>
+                    <p>Definitely! I often work on redesigns, improvements, and additions to existing websites and applications. I can audit your current setup and provide recommendations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Connect With Me</h2>
+                <p class="section-subtitle">Follow my work and stay updated on new projects and insights</p>
+            </div>
+            
+            <div class="grid grid-4">
+                <div class="card text-center">
+                    <div class="card-icon">💼</div>
+                    <h3>LinkedIn</h3>
+                    <p>Professional updates and industry insights</p>
+                    <a href="#" class="btn btn-secondary">Follow</a>
+                </div>
+                
+                <div class="card text-center">
+                    <div class="card-icon">🐦</div>
+                    <h3>Twitter</h3>
+                    <p>Design tips and behind-the-scenes content</p>
+                    <a href="#" class="btn btn-secondary">Follow</a>
+                </div>
+                
+                <div class="card text-center">
+                    <div class="card-icon">📸</div>
+                    <h3>Instagram</h3>
+                    <p>Visual inspiration and project highlights</p>
+                    <a href="#" class="btn btn-secondary">Follow</a>
+                </div>
+                
+                <div class="card text-center">
+                    <div class="card-icon">📧</div>
+                    <h3>Newsletter</h3>
+                    <p>Monthly updates on design trends and tips</p>
+                    <a href="#" class="btn btn-secondary">Subscribe</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section" style="background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); color: white;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" style="color: white;">Ready to Get Started?</h2>
+                <p class="section-subtitle" style="color: rgba(255, 255, 255, 0.9);">Don't wait - let's turn your ideas into reality. Send me a message today!</p>
+            </div>
+            
+            <div class="text-center">
+                <a href="#contact-form" class="btn" style="background: white; color: var(--primary-color);">Send Message Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kelvin Mirii</h3>
+                    <p>Creative Designer & Developer passionate about crafting exceptional digital experiences that make a difference.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <a href="services.html">Web Design</a>
+                    <a href="services.html">Brand Identity</a>
+                    <a href="services.html">Mobile Apps</a>
+                    <a href="services.html">Consulting</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <a href="mailto:miriikelvinkimani@gmail.com">miriikelvinkimani@gmail.com</a>
+                    <a href="tel:+1234567890">+254707355043</a>
+                    <div style="margin-top: 1rem;">
+                        <a href="#" style="margin-right: 1rem;">LinkedIn</a>
+                        <a href="#" style="margin-right: 1rem;">Twitter</a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kelvin Mirii. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
